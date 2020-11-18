@@ -1,0 +1,11 @@
+Etape 20 ´
+
+Relancez l’application, retournez sur la console H2 : http://localhost:8080/h2-console.
+Faites une requˆete de type SELECT sur la table Address. Voyez-vous tout le contenu de
+data.sql ? Ajoutez la reponse dans le README.
+En faisant une requete de  type SELECT sur la table Address, on aprecois le contenu de
+data.sql (les 2 éléments ajouter à la base de donnée).
+
+Etape 23 
+
+L’annotation @Autowired permet de faire l’injection de dépendances entre les beans de l’application, le conteneur Spring va creer le bean, le chercher et l’injecter automatiquement.
