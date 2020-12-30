@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+  <div th:replace="header :: myheader"></div>
+    <title>Meteo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   
+	
+</head>
+<body>
+
+<h1 th:text="'Bonjour page meteo !' " align='center' />
+     
+     <table class="table">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Longitude</th>
+      <th scope="col">Latitude</th>
+      <th scope="col">Temperature</th>
+      <th scope="col">Adresse</th>
+      <th scope="col">Temps</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td> <p th:text=" ${longitude} "/> </td>
+      <td> <p th:text=" ${latitude} "/></td>
+      <td> <p th:text=" ${Temp} "/> </td>
+      <td> <p th:text=" ${address} "/> </td>
+      <td> <p th:text=" ${forecast} "/> </td>
+    </tr>
+    
+  </tbody>
+</table>
+     
+  
+    
+</body>
+</html>

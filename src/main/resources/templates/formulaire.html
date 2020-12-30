@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <title>Adresse</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+     <div th:replace="header :: myheader"></div>
+ 
+	
+</head>
+<body>
+<h1 th:text="'Bonjour page Accueil !' " align='center' />
+
+<form action="/meteo" method="post">
+        <label for="adresse">Entrez une adresse :</label>
+        <input type="text" id="adresse" name="adresse">
+       	<input type="submit" class="btn btn-outline-primary" value="Recherche">
+
+</form>
+    
+    
+</body>
+</html>

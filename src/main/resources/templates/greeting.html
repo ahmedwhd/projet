@@ -1,13 +1,18 @@
-
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Blog</title>
+
+    <title>Adresse</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+     <div th:replace="header :: myheader"></div>
+ 
+	
 </head>
 <body>
+<h1 th:text="'Bonjour page Recherche !' " align='center' />
     <p th:text="'Bonjour ' + ${nomTemplate} + ' !'"/>
-     <p th:text="azertyui"/>
+  
     
 </body>
 </html>
+
